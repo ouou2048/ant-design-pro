@@ -6,8 +6,8 @@
 http://www.runoob.com/nodejs/nodejs-install-setup.html
 
 2.更换npm的源地址
-将npm的源地址更换到淘宝，指令如下
-npm config set registry https://registry.npm.taobao.org  
+将npm的源地址更换到淘宝，指令如下（要先安装淘宝代理）
+npm install -g cnpm --registry=https://registry.npm.taobao.org 
 
 3.Visual Studio Code
 开发工具Visual Studio Code
